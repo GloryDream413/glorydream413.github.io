@@ -1,0 +1,6 @@
+// specific icon class definition
+// -------------------------
+
+each(.fa-icons(), {
+  .@{fa-css-prefix}-@{key}::before { content: @value; }
+});
